@@ -17,6 +17,8 @@ namespace dotnet.Controllers
         [HttpGet]
         public IEnumerable<Book> GetBooks()
         {
+            //test1
+            Console.WriteLine("test");
             return books;
         }
 
